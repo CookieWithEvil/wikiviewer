@@ -1,0 +1,65 @@
+body{
+   font-family: Arial;
+   background: Silver url("https://upload.wikimedia.org/wikipedia/commons/d/de/Wikipedia_Logo_1.0.png") center 150px no-repeat;
+}
+h1{
+   font-size: 300%;
+   color: DarkBlue;
+}
+h1,#container{
+   text-align: center;
+}
+#get-rand:hover{
+   color: DarkBlue;
+   box-shadow: 0 0 5px SteelBlue;
+}
+#get-rand:hover,#results li:hover,
+#search-item:hover,#search-submit:hover{
+   box-shadow: 0 0 5px SteelBlue;
+}
+#get-rand,#search-item,#search-submit{
+   display: inline-block;   
+   color: DarkBlue;
+   font-size: 120%;
+   font-weight: bold;
+   border: none;
+   background: Gainsboro;
+}
+#get-rand{   
+   padding: 0 5px;
+   line-height: 30px;
+   text-decoration: none;
+}
+#search-item{
+   padding: 0 5px;
+   min-width: 100px;   
+   outline: none;
+}
+#search-submit,#search-item{
+   height: 30px;   
+}
+/*RESULTS*/
+#results{
+   margin: 0;
+}
+#results a{
+   text-decoration: none;
+}
+#results li{
+   margin: 10px 0 0 -40px;
+   padding: 5px 0 10px 10px;
+   min-height: 30px;
+   list-style: none;
+   background: Gainsboro;
+}
+#results li:hover{
+   box-shadow: 0 0 5px SteelBlue;
+}
+#results li h2{
+   margin: 0;
+   color: DarkBlue;
+}
+#results li p{
+   margin: 0;
+   color: black;
+}

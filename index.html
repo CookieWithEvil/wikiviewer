@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wiki-Search</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<body>
+	<h1>Wellcome To Wikipedia Viewer!</h1>
+	<div id="container">
+	   <a href="https://en.wikipedia.org/wiki/Special:Random" target="_block" id="get-rand">Get Random Article!</a>
+	   <input type="search" id="search-item" placeholder="Article..." onsearch="clearResults()">
+	   <button id="search-submit">Search</button>
+	</div>
+	<ul id="results">
+	</ul>
+	<script type="text/javascript" src="code.js"></script>
+</body>
+</html>
